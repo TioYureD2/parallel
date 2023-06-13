@@ -19,7 +19,7 @@ main {
   color: whitesmoke;
 }
 #main-image ul{
-  margin: 0 2rem;
+  margin: 6rem 2rem 6rem 4rem;
 }
 #main-image ul li {
   padding: 2rem 1rem;
@@ -39,10 +39,11 @@ h1 {
   text-align: center;
   margin: 0 auto;
   position: relative;
+  right:4rem;
   width: 65%;
   background-color: rgba(77, 77, 77, 0.7);
   border-radius: 12px;
-  box-shadow: 0 0 10rem rgba(77, 77, 77);
+  /* box-shadow: 0 0 10rem rgba(77, 77, 77); */
   padding: 1rem 2rem;
   height: fit-content;
 }
@@ -130,6 +131,21 @@ input[type="checkbox"]{
   left: 4px;
   box-shadow: none;
 }
+#features{
+  margin: 0;
+  background: linear-gradient(270deg, rgb(12, 12, 12), rgb(94, 93, 93));
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#features h2 {
+  display: flex;
+  margin: 0;
+  color: whitesmoke;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 4rem 1rem;
+}
 #courses {
   margin: 0;
   padding: 0;
@@ -140,7 +156,8 @@ input[type="checkbox"]{
   font-size: 3rem;
   font-family: "Bebas Neue", sans-serif;
   margin: 0;
-  padding: 1rem;
+  padding: 3rem 0 1rem 0;
+
 }
 #course-display {
   display: grid;
